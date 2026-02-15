@@ -1,0 +1,38 @@
+
+{
+  "name": "Sri Kanapathi Tamil Calendar Pro",
+  "short_name": "Tamil Cal",
+  "description": "Premium Tamil Calendar with Panchangam, Vasthu, Spiritual Journal and AI Insights.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#ea580c",
+  "categories": ["lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3652/3652191.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3652/3652191.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Panchangam",
+      "url": "/?action=today",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/3652/3652191.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Spiritual Journal",
+      "url": "/?action=journal",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/3652/3652191.png", "sizes": "192x192" }]
+    }
+  ]
+}
